@@ -1,9 +1,0 @@
-{
-    "version": 2,
-    "routes": [
-        {"src": "/api/(.*)", "dest": "mock/$1.js"},
-        {"src": "/(.*)", "dest": "index.html"}
-    ],
-    "installCommand": "pnpm install --production=false",
-    "buildCommand": "npx vite build"
-}
