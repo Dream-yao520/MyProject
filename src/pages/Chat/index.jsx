@@ -2,7 +2,7 @@ import { useState, useRef } from 'react';
 import { Button, Input, Toast } from 'react-vant'
 import { ChatO, UserO } from '@react-vant/icons';
 import useTitle from '@/hooks/useTitle'
-import { chat } from '@/llm'
+import { chat } from '@/LLM'
 import ReactMarkdown from 'react-markdown'; // 导入Markdown解析器
 import styles from './chat.module.css';
 
