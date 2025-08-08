@@ -26,7 +26,7 @@ import styles from './userProfile.module.css'
 import { useNavigate } from 'react-router-dom'
 import { useLoginStore } from '@/store/useLoginStore';
 import useUserProfileStore from '@/store/useUserProfileStore';
-import { generateAvatar } from '@/llm';
+import { generateAvatar } from '@/LLM';
 
 const Account = () => {
     const { isLogin, logout } = useLoginStore();
